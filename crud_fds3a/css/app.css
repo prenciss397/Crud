@@ -1,0 +1,64 @@
+a{
+    text-decoration: none;
+    position: relative;
+    color: red;
+}
+
+
+body{
+    background-color: #ffc8dd;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0px 0px 30px 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    padding: 80px;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+}
+
+#record h1{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    margin-top: -100px;
+
+}
+
+.index{
+    display: grid;
+    grid-template-columns: 1, 2fr;
+    position: absolute;
+    width: 50%;
+    left: 150px;
+    top: -30px;
+    gap: 10px;
+
+}
+.form{
+    margin: 0;
+}
+.form label{
+    position: relative;
+}
+
+.form label .input{
+    background-color: #DBCDF0;
+    position: relative;
+
+    left: 0px;
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    outline: 0;
+    border: 1px solid rgba(red, green, blue, alpha);
+    border-radius: 5px;
+}
+
